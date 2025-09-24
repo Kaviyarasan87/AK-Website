@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AK Hollow Blocks - Product Catalog</title>
+  <meta name="description" content="AK Hollow Blocks: Premium hollow blocks, Kerala-style windows, cement rings, slabs, and more. Strong, reliable, affordable building materials.">
+  <meta name="keywords" content="hollow blocks, solid blocks, cement rings, slabs, Kerala windows, construction materials, building blocks">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">AK Hollow Blocks</a>
+      <nav>
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="ab.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><button id="toggleMode" aria-label="Toggle dark mode"></button></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu"><i class="fa fa-bars"></i></button>
+    </div>
+  </header>
+  <main>
+    <section class="hero" data-aos="fade-up">
+      <h2>Premium Quality Solid Blocks</h2>
+      <p>Strong. Reliable. Affordable.</p>
+      <button onclick="location.href='contact.html'" class="cta-btn">Enquire Now</button>
+    </section>
+    <br>
+    <!-- Carousel HTML -->
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleRide" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/slide/s1.webp" class="carousel-img" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide/s2.webp" class="carousel-img" alt="Slide 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide/s3.webp" class="carousel-img" alt="Slide 3">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide/s4.webp" class="carousel-img" alt="Slide 4">
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide/s5.webp" class="carousel-img" alt="Slide 5">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section class="filter-buttons">
+      <button data-category="all" class="active">All</button>
+      <button data-category="category1">Solid Blocks</button>
+      <button data-category="category2">Frames-windows(நிலை/ஜன்னல்)</button>
+      <button data-category="category3">slap-Tank(பலகை/தொட்டி)</button>
+      <button data-category="category4">ring-post(ரிங்/தூண்)</button>
+      <button data-category="category5">Others</button>
+    </section>
+    <section id="products" class="catalog">
+      <h2 data-aos="fade-up">Our Products</h2>
+      <div class="product-grid" id="productGrid">
+        <!-- Product cards will be rendered here -->
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <h3>AK Hollow Blocks</h3>
+      <p>We manufacture premium hollow blocks, Kerala-style windows, cement rings, and slabs with the highest quality.</p>
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 AK Hollow Blocks. All rights reserved.</p>
+      <div class="footer-menu">
+        <ul class="f-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ab.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <a href="https://wa.me/916379343462" target="_blank" class="whatsapp-float" aria-label="Chat with us on WhatsApp" title="Chat with us on WhatsApp">
+    <i class="fa fa-whatsapp"></i>
+  </a>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    AOS.init();
+    document.getElementById("toggleMode").addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+    });
+
+    // Mobile nav toggle
+    document.querySelector('.nav-toggle').addEventListener('click', function() {
+      document.querySelector('header nav ul').classList.toggle('open');
+    });
+
+    const products = [
+      //-----------------------------category 1--------------------------------------------------
+    
+    {
+      name: "Solid Blocks Side-View",
+      size: "12x6 inches",
+      image: "img/category1/ca2.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Top-View",
+      size: "12x6 inches",
+      image: "img/category1/ca3.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Bottom-View",
+      size: "12x6 inches",
+      image: "img/category1/ca4.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+     name: "Solid Blocks Top-View",
+      size: "12x6 inches",
+      image: "img/category1/ca5.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Side-View",
+      size: "12x6 inches",
+      image: "img/category1/ca6.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Align-View",
+      size: "12x6 inches",
+      image: "img/category1/ca7.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Side-View",
+      size: "15x4 inches",
+      image: "img/category1/ca8.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Bottom-View",
+      size: "15x4 inches",
+      image: "img/category1/ca9.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Align-View",
+      size: "15x4 inches",
+      image: "img/category1/ca10.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Structure-View",
+      size: "15x4 inches",
+      image: "img/category1/ca11.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Side-View",
+      size: "15x4 inches",
+      image: "img/category1/ca12.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Block manufacturing-View",
+      size: "12x6 inches",
+      image: "img/category1/ca13.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    {
+      name: "Solid Blocks Stocking-View",
+      size: "All Sizes Blocks",
+      image: "img/category1/ca14.webp",
+      category: "category1",
+      isCarousel: false
+    },
+    //------------------------------category 2---------------------------------------------
+    {
+      name: "Kerala Style Window (ஜன்னல்)",
+      size: "2 x 2 1/2 feet",
+      image: "img/category2/c21.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Window (ஜன்னல்)",
+      size: "3 x 2 1/2 feet",
+      image: "img/category2/c22.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Window (ஜன்னல்)",
+      size: "3 x 3 feet",
+      image: "img/category2/c23.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Window (ஜன்னல்)",
+      size: "4 x 3 feet",
+      image: "img/category2/c24.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "3inch Coating Keels (கோட்டிங் கீல்ஸ்)",
+      size: "ALL Windows",
+      image: "img/category2/c25.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Window Side-View (ஜன்னல்)",
+      size: "size varies",
+      image: "img/category2/c26.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "12mm plain rods (12mm பிளைன் ராடு)",
+      size: "size varies",
+      image: "img/category2/c226.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Window View",
+      size: "Three Sizes",
+      image: "img/category2/c27.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Window View",
+      size: "Two Sizes",
+      image: "img/category2/c28.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+     name: "Kerala Style Window View",
+      size: "Two Sizes",
+      image: "img/category2/c29.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Frame (நிலை)",
+      size: "6ft x 3ft",
+      image: "img/category2/c30.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Frame (நிலை)",
+      size: "6 1/2ft x 3ft",
+      image: "img/category2/c31.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Frame (நிலை)",
+      size: "7ft x 3ft",
+      image: "img/category2/c32.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Frame (நிலை)",
+      size: "7ft x 3ft",
+      image: "img/category2/c33.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Frame Side-View (நிலை)",
+      size: "4inch",
+      image: "img/category2/c34.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Frame Front-View (நிலை)",
+      size: "All Frames",
+      image: "img/category2/c35.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+     name: "Kerala Style Frame View (நிலை)",
+      size: "6ft x 3ft",
+      image: "img/category2/c36.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    {
+      name: "Kerala Style Frame View (நிலை)",
+      size: "7ft x 3ft",
+      image: "img/category2/c37.webp",
+      category: "category2",
+      isCarousel: false
+    },
+    //----------------------------------------category 3--------------------------------
+    {
+      name: "Cement Slab (சிமெண்ட் பலகை)",
+      size: "3ft x 2ft",
+      image: "img/category3/c30.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cement Slab (சிமெண்ட் பலகை)",
+      size: "4ft x 2ft",
+      image: "img/category3/c31.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cement Slab (சிமெண்ட் பலகை)",
+      size: "5ft x 2ft",
+      image: "img/category3/c32.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cement Slab (சிமெண்ட் பலகை)",
+      size: "5 1/2ft x 2ft",
+      image: "img/category3/c33.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cement Slab (சிமெண்ட் பலகை)",
+      size: "3ft x 1 1/2ft",
+      image: "img/category3/c34.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+     name: "Cement Slab (சிமெண்ட் பலகை)",
+      size: "4ft x 1 1/2ft",
+      image: "img/category3/c35.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cement Slab (சிமெண்ட் பலகை)",
+      size: "3ft x 1ft",
+      image: "img/category3/c36.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cement Slab (சிமெண்ட் பலகை)",
+      size: "4ft x 1ft",
+      image: "img/category3/c37.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cement Slab - Thickness (தடிமன்)",
+      size: "1 1/2inch",
+      image: "img/category3/c38.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Ordered Slabs - Available (ஆர்டர் பலகைகள் கிடைக்கும்)",
+      size: "All Sizes",
+      image: "img/category3/c39.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cow Tank  (மாட்டு தொட்டி)",
+      size: "Small",
+      image: "img/category3/c40.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cow Tank  (மாட்டு தொட்டி)",
+      size: "Normal",
+      image: "img/category3/c41.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cow Tank Front-View (மாட்டு தொட்டி)",
+      size: "Both Sizes",
+      image: "img/category3/c42.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "Cow Tank Front-View (மாட்டு தொட்டி)",
+      size: "Both Sizes",
+      image: "img/category3/c43.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "goat tank (ஆட்டுத் தொட்டி)",
+      size: "Standard Size",
+      image: "img/category3/c44.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    {
+      name: "goat tank Front-View (ஆட்டுத் தொட்டி)",
+      size: "Standard Size",
+      image: "img/category3/c45.webp",
+      category: "category3",
+      isCarousel: false
+    },
+    //------------------------category 4-----------------------------------------------------
+    {
+      name: "Cement Ring - Small (சிமெண்ட்-ரிங்)",
+      size: "1ft x 3ft",
+      image: "img/category4/c40.webp",
+      category: "category4",
+      isCarousel: false
+    },
+    {
+      name: "Cement Ring - Medium (சிமெண்ட்-ரிங்)",
+      size: "1ft x 4ft",
+      image: "img/category4/c41.webp",
+      category: "category4",
+      isCarousel: false
+    },
+    {
+      name: "Cement Ring - Large (சிமெண்ட்-ரிங்)",
+      size: "1ft x 4 1/2ft",
+      image: "img/category4/c42.webp",
+      category: "category4",
+      isCarousel: false
+    },
+    {
+      name: "Cement Ring - Front-View (சிமெண்ட்-ரிங்)",
+      size: "All Sizes",
+      image: "img/category4/c44.webp",
+      category: "category4",
+      isCarousel: false
+    },
+    {
+      name: "Cement Ring - Back-View (சிமெண்ட்-ரிங்)",
+      size: "All Sizes",
+      image: "img/category4/c45.webp",
+      category: "category4",
+      isCarousel: false
+    },
+    {
+      name: "Cement Ring - Top-View (சிமெண்ட்-ரிங்)",
+      size: "All Sizes",
+      image: "img/category4/c46.webp",
+      category: "category4",
+      isCarousel: false
+    },
+    {
+      name: "Cement Ring Closing Slab- (சிமெண்ட்-மூடி)",
+      size: "4ft",
+      image: "img/category4/c47.webp",
+      category: "category4",
+      isCarousel: false
+    },
+    {
+      name: "Cement Ring Closing Slab- (சிமெண்ட்-மூடி)",
+      size: "4 1/2ft",
+      image: "img/category4/c48.webp",
+      category: "category4",
+      isCarousel: false
+    },
+    {
+     name:"Cement Post - ALL Sizes (சிமெண்ட்-தூண்)", 
+     size:"4x4 inches", 
+     image:"img/category4/c49.webp", 
+     category:"category4", 
+     isCarousel:false
+    },
+    {
+      name:"Cement Post - ALL Sizes (சிமெண்ட்-தூண்)", 
+     size:"4x4 inches", 
+      image: "img/category4/c50.webp",
+      category: "category4",
+      isCarousel: false
+    },
+    {
+     name:"Order Cement Posts - available (ஆர்டர் சிமெண்ட்-தூண் கிடைக்கும்)", 
+     size:"All Sizes", 
+     image:"img/category4/c51.webp", 
+     category:"category4", 
+     isCarousel:false
+    },
+
+    //-------------------category 5---------------------------------------------
+    {
+      name: "Cement Exhaust Fan Pipe (சிமெண்ட்-எக்ஸ்ஹாஸ்ட்-பேன்-பைப்)",
+      size: "Standard Size",
+      image: "img/category5/c51.webp",
+      category: "category5",
+      isCarousel: false
+    },
+    {
+      name: "Cement Exhaust Fan Pipe (சிமெண்ட்-எக்ஸ்ஹாஸ்ட்-பேன்-பைப்)",
+      size: "Standard Size",
+      image: "img/category5/c52.webp",
+      category: "category5",
+      isCarousel: false
+    },
+    {
+      name: "Flower Tank (பூ தொட்டி)",
+      size: "Small",
+      image: "img/category5/c53.webp",
+      category: "category5",
+      isCarousel: false
+    },{
+      name: "Flower Tank (பூ தொட்டி)",
+      size: "Normal",
+      image: "img/category5/c54.webp",
+      category: "category5",
+      isCarousel: false
+    },{
+      name: "Flower Tank (பூ தொட்டி)",
+      size: "Big",
+      image: "img/category5/c554.webp",
+      category: "category5",
+      isCarousel: false
+    },{
+      name: "Feed Tank (தொட்டி)",
+      size: "small Size",
+      image: "img/category5/c55.webp",
+      category: "category5",
+      isCarousel: false
+    },{
+      name: "Feed Tank (தொட்டி)",
+      size: "small Size",
+      image: "img/category5/c56.webp",
+      category: "category5",
+      isCarousel: false
+    },{
+      name: "Feed Tank (தொட்டி)",
+      size: "Normal Size",
+      image: "img/category5/c57.webp",
+      category: "category5",
+      isCarousel: false
+    },{
+      name: "Cement Bero-Stand (சிமெண்ட்-பேரோ-ஸ்டாண்ட்)",
+      size: "Standard Size",
+      image: "img/category5/c58.webp",
+      category: "category5",
+      isCarousel: false
+    },{
+      name: "Cement Bero-Stand (சிமெண்ட்-பேரோ-ஸ்டாண்ட்)",
+      size: "Standard Size",
+      image: "img/category5/c59.webp",
+      category: "category5",
+      isCarousel: false
+    },{
+      name: "Cement Bero-Stand (சிமெண்ட்-பேரோ-ஸ்டாண்ட்)",
+      size: "Standard Size",
+      image: "img/category5/c60.webp",
+      category: "category5",
+      isCarousel: false
+    },{
+      name: "Dalmiya/Ramco Cement Bag (டால்மியா/ராம்கோ சிமெண்ட்)",
+      size: "Retail & Wholesale",
+      image: "img/category5/c61.webp",
+      category: "category5",
+      isCarousel: false
+    }
+    //----------------------END--------------------------
+  ];
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const productGrid = document.getElementById("productGrid");
+
+      // Helper for random 4 or 5 stars
+      function getRandomStars() {
+        const stars = Math.random() < 0.5 ? 4 : 5;
+        let html = '';
+        for (let i = 0; i < 5; i++) {
+          html += `<i class="fa fa-star${i < stars ? '' : '-o'}" style="color:#FFD700"></i>`;
+        }
+        return html;
+      }
+
+      // Render product cards
+      products.forEach(product => {
+        const card = document.createElement("div");
+        card.className = `product-card ${product.category}`;
+        card.innerHTML = `
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span></span>
+            <button class="heart-btn" aria-label="Add to wishlist" tabindex="0" style="background:none;border:none;cursor:pointer;font-size:1.3rem;color:#e74c3c;">
+              <i class="fa fa-heart-o"></i>
+            </button>
+          </div>
+          <img src="${product.image}" alt="${product.name}" loading="lazy">
+          <h3>${product.name}</h3>
+          <p>${product.size}</p>
+          <div class="stars" style="margin:0.5rem 0;">${getRandomStars()}</div>
+          <button class="cta-btn" onclick="location.href='contact.html'">Enquire</button>
+        `;
+        productGrid.appendChild(card);
+      });
+
+      // Heart icon toggle
+      document.querySelectorAll('.heart-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const icon = this.querySelector('i');
+          icon.classList.toggle('fa-heart-o');
+          icon.classList.toggle('fa-heart');
+          icon.style.color = icon.classList.contains('fa-heart') ? '#e74c3c' : '#e74c3c';
+        });
+      });
+
+      // Filter function
+      function filterProducts(category) {
+        const cards = document.querySelectorAll(".product-card");
+        cards.forEach(card => {
+          if (category === 'all' || card.classList.contains(category)) {
+            card.style.display = "";
+          } else {
+            card.style.display = "none";
+          }
+        });
+      }
+
+      // Attach event listeners to filter buttons
+      document.querySelectorAll('.filter-buttons button').forEach(btn => {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('.filter-buttons button').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+          filterProducts(this.getAttribute('data-category'));
+        });
+      });
+
+      // Show all products on initial load
+      filterProducts('all');
+    });
+  </script>
+</body>
+</html>
